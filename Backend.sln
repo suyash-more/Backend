@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9643F46F-39EC-44F6-A64D-A1165E3B0BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4F1FE0F0-DCB0-4F97-B319-4BA7840D226D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{B7448EAE-BB03-431D-A19A-8544ABBA0EFB}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service1", "Service1", "{423A6982-269A-43AB-8191-8582ECE45ADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Services.Service1.API", "Services\Service1\Backend.Services.Service1.API\Backend.Services.Service1.API.csproj", "{399249C8-8081-4857-A881-0C20F1DC8288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Services.Service1.Application", "Services\Service1\Backend.Services.Service1.Application\Backend.Services.Service1.Application.csproj", "{DAFC2002-F3AB-4106-80E8-B1F1F7684D03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Services.Service1.Worker", "Services\Service1\Backend.Services.Service1.Worker\Backend.Services.Service1.Worker.csproj", "{9DFDC496-7703-4C58-AB7E-9171F6267514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Services.Service1.Messages", "Services\Service1\Backend.Services.Service1.Messages\Backend.Services.Service1.Messages.csproj", "{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399249C8-8081-4857-A881-0C20F1DC8288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399249C8-8081-4857-A881-0C20F1DC8288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399249C8-8081-4857-A881-0C20F1DC8288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399249C8-8081-4857-A881-0C20F1DC8288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFC2002-F3AB-4106-80E8-B1F1F7684D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFC2002-F3AB-4106-80E8-B1F1F7684D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFC2002-F3AB-4106-80E8-B1F1F7684D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFC2002-F3AB-4106-80E8-B1F1F7684D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFDC496-7703-4C58-AB7E-9171F6267514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFDC496-7703-4C58-AB7E-9171F6267514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFDC496-7703-4C58-AB7E-9171F6267514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFDC496-7703-4C58-AB7E-9171F6267514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{423A6982-269A-43AB-8191-8582ECE45ADD} = {4F1FE0F0-DCB0-4F97-B319-4BA7840D226D}
+		{399249C8-8081-4857-A881-0C20F1DC8288} = {423A6982-269A-43AB-8191-8582ECE45ADD}
+		{DAFC2002-F3AB-4106-80E8-B1F1F7684D03} = {423A6982-269A-43AB-8191-8582ECE45ADD}
+		{9DFDC496-7703-4C58-AB7E-9171F6267514} = {423A6982-269A-43AB-8191-8582ECE45ADD}
+		{1D9B6BDC-7A68-4B18-8EE5-FE9645E17566} = {423A6982-269A-43AB-8191-8582ECE45ADD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {178406F8-4019-42C1-B9D2-D7909301D85A}
+	EndGlobalSection
+EndGlobal
